@@ -1,3 +1,4 @@
+import React from "react";
 import type { Metadata } from "next";
 import "./globals.css";
 
@@ -18,7 +19,7 @@ export const metadata: Metadata = {
   authors: [{ name: "Ravelyn Technology, Inc." }],
   creator: "Ravelyn Technology, Inc.",
   publisher: "Ravelyn Technology, Inc.",
-  metadataBase: new URL("https://ravelyn.technology"),
+  metadataBase: new URL("https://www.ravelyn.technology"),
   alternates: {
     canonical: "/",
   },
@@ -35,7 +36,8 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Ravelyn Technology An Inference Compiler for Agent Workloads",
+        alt: "Ravelyn Technology — An Inference Compiler for Agent Workloads",
+        type: "image/jpeg",
       },
     ],
   },
@@ -74,7 +76,7 @@ const jsonLd = {
   sameAs: [],
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
       <head>
