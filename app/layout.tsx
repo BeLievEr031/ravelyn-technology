@@ -32,10 +32,10 @@ export const metadata: Metadata = {
       "Point your agent at one endpoint. Ravelyn profiles every trajectory, finds the call shapes that repeat, and compiles those hot paths down to small models trained on your own traffic.",
     images: [
       {
-        url: "/og-image.png",
+        url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Ravelyn Technology — An Inference Compiler for Agent Workloads",
+        alt: "Ravelyn Technology An Inference Compiler for Agent Workloads",
       },
     ],
   },
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: "Ravelyn Technology — An Inference Compiler for Agent Workloads",
     description:
       "Point your agent at one endpoint. Ravelyn profiles every trajectory and compiles hot paths into small specialist models trained on your own traffic.",
-    images: ["/og-image.png"],
+    images: ["/og-image.jpg"],
   },
   robots: {
     index: true,
