@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Ravelyn Technology — An Inference Compiler for Agent Workloads",
+  title: "Ravelyn Technology An Inference Compiler for Agent Workloads",
   description:
     "Ravelyn Technology profiles your agent traffic, finds the calls that repeat, and compiles those hot paths down to small models trained on your own data. Pay only a share of verified savings.",
   keywords: [
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://ravelyn.technology",
     siteName: "Ravelyn Technology",
-    title: "Ravelyn Technology — An Inference Compiler for Agent Workloads",
+    title: "Ravelyn Technology An Inference Compiler for Agent Workloads",
     description:
       "Point your agent at one endpoint. Ravelyn profiles every trajectory, finds the call shapes that repeat, and compiles those hot paths down to small models trained on your own traffic.",
     images: [
@@ -36,14 +36,14 @@ export const metadata: Metadata = {
         url: "/og-image.jpg",
         width: 1200,
         height: 630,
-        alt: "Ravelyn Technology — An Inference Compiler for Agent Workloads",
+        alt: "Ravelyn Technology An Inference Compiler for Agent Workloads",
         type: "image/jpeg",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ravelyn Technology — An Inference Compiler for Agent Workloads",
+    title: "Ravelyn Technology An Inference Compiler for Agent Workloads",
     description:
       "Point your agent at one endpoint. Ravelyn profiles every trajectory and compiles hot paths into small specialist models trained on your own traffic.",
     images: ["/og-image.jpg"],
